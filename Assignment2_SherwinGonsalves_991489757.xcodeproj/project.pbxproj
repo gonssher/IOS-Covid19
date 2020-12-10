@@ -18,7 +18,6 @@
 		587C1AB42568A3610027EC3F /* Assignment2_SherwinGonsalves_991489757UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C1AB32568A3610027EC3F /* Assignment2_SherwinGonsalves_991489757UITests.swift */; };
 		587C1AD62568A67C0027EC3F /* ChartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C1AD52568A67C0027EC3F /* ChartScene.swift */; };
 		587C1ADB2568A7150027EC3F /* ChartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587C1ADA2568A7150027EC3F /* ChartScene.sks */; };
-		58F724272569AD7000CF9A43 /* Covid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F724262569AD7000CF9A43 /* Covid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		587C1AB52568A3610027EC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587C1AD52568A67C0027EC3F /* ChartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScene.swift; sourceTree = "<group>"; };
 		587C1ADA2568A7150027EC3F /* ChartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ChartScene.sks; sourceTree = "<group>"; };
-		58F724262569AD7000CF9A43 /* Covid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +108,13 @@
 				587C1A8E2568A3600027EC3F /* AppDelegate.swift */,
 				587C1A902568A3600027EC3F /* SceneDelegate.swift */,
 				587C1A922568A3600027EC3F /* ViewController.swift */,
+				587C1AD52568A67C0027EC3F /* ChartScene.swift */,
 				587C1A942568A3600027EC3F /* Main.storyboard */,
 				587C1A9A2568A3610027EC3F /* Assets.xcassets */,
 				587C1A9C2568A3610027EC3F /* LaunchScreen.storyboard */,
 				587C1A9F2568A3610027EC3F /* Info.plist */,
 				587C1A972568A3600027EC3F /* Assignment2_SherwinGonsalves_991489757.xcdatamodeld */,
-				587C1AD52568A67C0027EC3F /* ChartScene.swift */,
 				587C1ADA2568A7150027EC3F /* ChartScene.sks */,
-				58F724262569AD7000CF9A43 /* Covid.swift */,
 			);
 			path = Assignment2_SherwinGonsalves_991489757;
 			sourceTree = "<group>";
@@ -272,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				587C1A932568A3600027EC3F /* ViewController.swift in Sources */,
-				58F724272569AD7000CF9A43 /* Covid.swift in Sources */,
 				587C1A992568A3600027EC3F /* Assignment2_SherwinGonsalves_991489757.xcdatamodeld in Sources */,
 				587C1A8F2568A3600027EC3F /* AppDelegate.swift in Sources */,
 				587C1AD62568A67C0027EC3F /* ChartScene.swift in Sources */,

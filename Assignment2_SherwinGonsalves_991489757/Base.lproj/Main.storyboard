@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="niW-aO-dhE">
-    <device id="retina3_5" orientation="landscape" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="niW-aO-dhE" customClass="ViewController" customModule="Assignment2_SherwinGonsalves_991489757" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OMf-42-YSn">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6TS-S9-keY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID19 : Canada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cfG-eM-4z7">
                                         <rect key="frame" x="8" y="8" width="304" height="34"/>
@@ -48,7 +48,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCo-CA-7UO">
-                                        <rect key="frame" x="275" y="257" width="0.0" height="55"/>
+                                        <rect key="frame" x="275" y="187" width="0.0" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="DKX-JO-X4k"/>
                                         </constraints>
@@ -57,7 +57,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHw-dP-ugq">
-                                        <rect key="frame" x="45" y="257" width="76" height="55"/>
+                                        <rect key="frame" x="45" y="187" width="76" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="IfE-8S-i9g"/>
                                         </constraints>
@@ -107,7 +107,7 @@
                                 </variation>
                             </view>
                             <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xbs-b7-VO3">
-                                <rect key="frame" x="328" y="8" width="144" height="304"/>
+                                <rect key="frame" x="8" y="258" width="304" height="214"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Xbs-b7-VO3" secondAttribute="height" multiplier="1:1" priority="750" id="0Tu-Oq-pnU"/>
                                     <constraint firstAttribute="width" secondItem="Xbs-b7-VO3" secondAttribute="height" multiplier="1:1" priority="750" id="I6F-Xf-iAo"/>
@@ -212,11 +212,12 @@
                         <outlet property="labelTotal" destination="rCo-CA-7UO" id="ba5-Uz-Cj0"/>
                         <outlet property="pickerView" destination="96a-uk-1Km" id="GoQ-BC-S7A"/>
                         <outlet property="provinceselction" destination="LLC-YL-XS6" id="eXm-gp-8GA"/>
+                        <outlet property="skView" destination="Xbs-b7-VO3" id="bB3-DX-VT8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgd-EU-l6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6547.5" y="-1525"/>
+            <point key="canvasLocation" x="-6983" y="-1536"/>
         </scene>
     </scenes>
     <resources>
