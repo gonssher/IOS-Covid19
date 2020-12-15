@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6TS-S9-keY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID19 : Canada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cfG-eM-4z7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID19 :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cfG-eM-4z7">
                                         <rect key="frame" x="8" y="8" width="304" height="34"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
@@ -48,7 +48,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCo-CA-7UO">
-                                        <rect key="frame" x="275" y="187" width="0.0" height="55"/>
+                                        <rect key="frame" x="209" y="187" width="66" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="DKX-JO-X4k"/>
                                         </constraints>
@@ -66,9 +66,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="rCo-CA-7UO" firstAttribute="leading" secondItem="6TS-S9-keY" secondAttribute="leading" constant="275" id="0dH-Q7-DmW"/>
+                                    <constraint firstItem="rCo-CA-7UO" firstAttribute="leading" secondItem="6TS-S9-keY" secondAttribute="leading" constant="209" id="0dH-Q7-DmW"/>
                                     <constraint firstItem="LLC-YL-XS6" firstAttribute="leading" secondItem="6TS-S9-keY" secondAttribute="leading" constant="8" id="0rU-xM-rGO"/>
                                     <constraint firstItem="LLC-YL-XS6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cfG-eM-4z7" secondAttribute="trailing" id="BTW-tD-Wds"/>
                                     <constraint firstItem="96a-uk-1Km" firstAttribute="leading" secondItem="6TS-S9-keY" secondAttribute="leading" id="HWa-qH-t0b"/>
@@ -213,11 +213,12 @@
                         <outlet property="pickerView" destination="96a-uk-1Km" id="GoQ-BC-S7A"/>
                         <outlet property="provinceselction" destination="LLC-YL-XS6" id="eXm-gp-8GA"/>
                         <outlet property="skView" destination="Xbs-b7-VO3" id="bB3-DX-VT8"/>
+                        <outlet property="titless" destination="cfG-eM-4z7" id="fg1-hE-cnr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgd-EU-l6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6983" y="-1536"/>
+            <point key="canvasLocation" x="-6491" y="-1800"/>
         </scene>
     </scenes>
     <resources>
@@ -226,9 +227,6 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
